@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioNiConde</title>
+    <link rel="stylesheet" href="rizz/css/style.css">
+    <link rel="stylesheet" href="rizz/css/mobile.css">
+    <link rel="stylesheet" href="rizz/css/tablet.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+    <a href="#main-div" style="text-decoration: none; color: red;">
+        <div class="wapsi">
+            <img src="rizz/images/waps.png" alt="Waps logo">
+            <h4>Martin Conde</h4>
+        </div>
+    </a>
+        <div class="menu-container">
+          <ul class="nav-menu">
+            <li><a href="#main-div">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#">Works</a></li> 
+          </ul>  
+        </div>
+
+        <div class="burger-menu">
+            <img src="rizz/images/burger.png" alt="" onclick="toggleMenu()">
+        </div>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div class="menu-container-mobile">
+        <img class="close-btn" src="rizz/images/close.png" alt="" onclick="toggleMenu()">
+        <ul class="nav-menu-mobile">
+          <li><a href="#main-div">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#">Works</a></li> 
+        </ul>  
+      </div>
+
+   <div id="main-div" class="wolfy">
+    <div>
+        <img src="rizz/images/image.png" alt="Picture ni Gian" class="gyat">     
+    </div>
+    <div class="rizzler">
+        <h1 class="name">Explore my <br> Portfolio</h1>
+        <p class="sub-heading">Discover my life as an Alpha and Sigma</p>
+        <div class="resma">
+            <button style="margin-right: 15px;">Hire me</button>
+            <button>HELL NAHHH</button>
+        </div>
+        <p class="small-heading">Follow me to spread brainrot trough internet</p>
+    </div>
+   </div>
+
+    <div class="kyomoto">
+        <div class="kyomoto-1">
+            <div style="width: 50%;"></div>
+            <div class="kymotor">
+                <img src="rizz/images/kyomoto.jpg" alt="">
+            </div>
+        </div>
+        <div class="kyomoto-2" id="about">
+            <img src="rizz/images/image 1.png" alt="">
+            <img src="rizz/images/image 2.png" alt="">
+            <p style="font-size: 20px; font-weight: bold; margin-left: 20px;">Shell</p>
+            <p style="font-size: 20px; font-weight: bold; margin-left: 20px;">Ferrari</p>
+            <p style="font-size: 20px; font-weight: bold; margin-left: 20px;">Amazon</p>
+            <img src="rizz/images/image 3.png" alt="">
+            <p style="font-size: 20px; font-weight: bold; margin-left: 20px;">Apple</p>
+            <img src="rizz/images/image 4.png" alt="">
+        </div>
+    </div>
+
+    <div class="satire">
+        <div class="bruh">
+            <img src="rizz/images/satire.png" alt="">
+        </div>
+        <div class="AbMe">
+            <h2>About Me</h2>
+            <p>
+                As a passionate full-stack developer, I
+specialize in crafting innovative digital
+solutions that drive business success. With
+expertise in a wide range of technologies, I
+work closely with clients to understand thei¢±
+            </p>
+        </div>
+    </div>
+
+    <div class="container" id="Projects">
+        <div class="inside">
+            <h2>Skill & <br> Expertise</h2>
+            <p>From web development to mobile apps,<br>
+                database management to cloud
+                deployments,<br> I possess a versatile skill
+                set that allows me to tackle complex challanges</p>
+                <a href="#">My work</a>
+        </div>
+            <div class="Expertises">
+                <div class="Expertise-1">
+                    <img src="rizz/images/image 5.png" alt="">
+                    <h3>Recent Projects</h3>
+                    <p>Explore my portfolio to see
+                        the impact I've made for my
+                        clients through visually
+                        stunning and highly
+                        functional digital
+                        experiences</p>
+                </div>
+                <div class="Expertise-2">
+                    <img src="rizz/images/image 6.png" alt="">
+                    <h3>Contact Me</h3>
+                    <p>Let's discuss how I can help
+                        bring your digital vision to
+                        life</p>
+                </div>
+                <div class="Expertise-3">
+                    <img src="rizz/images/image 7.png" alt="">
+                    <h3>Hire Me</h3>
+                    <p>I'm available for freelance
+                        and contract opportunities</p>
+                </div>
+            </div>
+    </div>
+    <script>
+        function toggleMenu(){
+            document.querySelector(".menu-container-mobile").classList.toggle("activate");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.wolfy{
+    gap: 200px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    flex-basis: 400px;
+}
+
+.gyat{
+    width: 300px;
+    height: auto;
+}
+
+#main-div{
+    padding: 100px;
+}
+
+.header{
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    font-size: 25px;
+    background-color: black;
+    box-shadow: 0 0 20px rgb(84, 83, 83);
+}
+
+.nav-menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wapsi{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wapsi img{
+    width: 70px;
+    height: 70px;
+}
+
+.header h4{
+    color: white;
+}
+.resma button{
+    background-color: red;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resma button:hover{
+    color: rgb(0, 0, 0);
+}
+
+.name{
+    font-size: 60px;
+    text-shadow: 3px 3px 5px rgb(125, 97, 97);
+    align-items: center;
+    font-family: "Old English Text MT";
+}
+
+.sub-heading{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.small-heading{
+    color: black;
+    opacity: 0.4;
+    margin-top: 20px;
+}
+
+.kyomoto{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+
+.kyomoto-1{
+    display: flex;
+}
+
+.kymotor{
+    background: rgba(162,162,162,255);
+    width: 50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.kyomoto-2{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.kyomoto-2 img{
+    height: 50px;
+}
+
+.satire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.bruh img{
+    width: 600px;
+    max-width: 600px;
+
+}
+
+.AbMe{
+    padding-left: 50px;
+}
+
+.AbMe h2{
+    font-size: 40px;
+    font-family: "Old English Text MT";
+}
+
+.AbMe p{
+    font-size: 18px;
+    opacity: 0.5;
+    line-height: 1.6;
+}
+
+.container{
+    /* padding: 20px 10px 60px 50px; */
+    align-items: center;
+    margin-top: 60px;
+    display:flex ;
+}
+
+.inside{
+    border: 2px solid;
+    padding: 20px 20px 80px 50px;
+}
+
+.Expertises{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.menu-container-mobile{
+    display: none;
+}
+
